@@ -202,27 +202,43 @@
       <div class="envelope-flap"></div>
       <div class="letter-content">
         <p>
-    <p>
-  Gửi cậu Cao Phong:)),
-  <br><br>
-  Hôm nay là một ngày thật đặc biệt – ngày đánh dấu sự xuất hiện của một người con trai bản lĩnh, đầy nhiệt huyết và không ngại vượt qua khó khăn trên đường đời.
-  <br><br>
-  Tớ rất vui vì đã được gặp cậu, đã được cậu trân trọng khi đọc dòng thư này, được đồng hành cùng nhau trong suốt quá trình ôn thi vào 10, những lần trò chuyện thâu đêm, những lúc cùng cười đến nghẹt thở hay lúc lặng im chia sẻ khi không cần nói gì.
-  <br><br>
-  Tớ chúc cậu trong tuổi 15 này sẽ vẫn giữ được nhiệt huyết, sự quyết tâm, sự dũng cảm để tiếp tục theo đuổi những ước mơ của riêng mình. Hãy làm những điều cậu thích, sống hết mình, và đừng quên rằng tớ lúc nào cũng luôn sẵn sàng ở đóng vai một người bạn đồng hành, lắng nghe và ủng hộ cậu đặc biệt là sự  chia sẻ trân thành từ cậu.
-  <br><br>
-  Mong rằng sinh nhật năm nay của cậu sẽ đặc biệt, ý nghĩa, và đậm âm tình bạn bè, dù code của tớ hôm nay chưa hoàn thiện mong cậu hoan hỉ và bỏ qua, góp ý cho tớ để sinh nhật mới này của cậu tớ sẽ hoàn thiện code xịn sò hơn để chúc ngày đặc biệt của cậu.
-  <br><br>
-  Chúc mừng sinh nhật nhé, Cao Phong!
-  <br><br>
-  👉 Hãy tận hưởng ngày đặc biệt này theo cách riêng của cậu nhé!
-  <br><br>
-
+          Gửi cậu Cao Phong:)),
+          <br><br>
+          Hôm nay là một ngày thật đặc biệt – ngày đánh dấu sự xuất hiện của một người con trai bản lĩnh, đầy nhiệt huyết và không ngại vượt qua khó khăn trên đường đời.
+          <br><br>
+          Tớ rất vui vì đã được gặp cậu, đã được cậu trân trọng khi đọc dòng thư này, được đồng hành cùng nhau trong suốt quá trình ôn thi vào 10, những lần trò chuyện thâu đêm, những lúc cùng cười đến nghẹt thở hay lúc lặng im chia sẻ khi không cần nói gì.
+          <br><br>
+          Tớ chúc cậu trong tuổi 15 này sẽ vẫn giữ được nhiệt huyết, sự quyết tâm, sự dũng cảm để tiếp tục theo đuổi những ước mơ của riêng mình. Hãy làm những điều cậu thích, sống hết mình, và đừng quên rằng tớ lúc nào cũng luôn sẵn sàng ở đóng vai một người bạn đồng hành, lắng nghe và ủng hộ cậu đặc biệt là sự  chia sẻ trân thành từ cậu.
+          <br><br>
+          Mong rằng sinh nhật năm nay của cậu sẽ đặc biệt, ý nghĩa, và đậm âm tình bạn bè, dù code của tớ hôm nay chưa hoàn thiện mong cậu hoan hỉ và bỏ qua, góp ý cho tớ để sinh nhật mới này của cậu tớ sẽ hoàn thiện code xịn sò hơn để chúc ngày đặc biệt của cậu.
+          <br><br>
+          Chúc mừng sinh nhật nhé, Cao Phong!
+          <br><br>
+          👉 Hãy tận hưởng ngày đặc biệt này theo cách riêng của cậu nhé!
         </p>
+
         <div class="signature">
           Người gửi<br>
           <span style="font-size: 16px; color: #1e3c72;">Đại nè</span>
         </div>
+
+        <!-- Nút tiếp tục -->
+        <div style="margin-top: 40px; text-align: center;">
+          <button onclick="goToNextPage()" style="
+            padding: 12px 28px;
+            font-size: 17px;
+            border: none;
+            border-radius: 8px;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            cursor: pointer;
+            box-shadow: 0 6px 18px rgba(30,60,114,0.25);
+            transition: transform 0.2s;
+          " onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            👉 Tiếp tục
+          </button>
+        </div>
+
       </div>
     </div>
   </div>
@@ -234,6 +250,10 @@
         const letter = document.getElementById('letterEnvelope');
         letter.classList.add('show');
       }, 1200);
+    }
+
+    function goToNextPage() {
+      window.location.href = "hoidap.html";
     }
   </script>
 </body>
